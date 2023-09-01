@@ -1,22 +1,21 @@
 {
-  "name": "js-hw-01",
+  "name": "node-js-hw-01",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index",
-    "dev": "nodemon index"
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "^3.3.6"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
-  "dependencies": {
-    "commander": "^11.0.0",
-    "nanoid": "^4.0.2",
-    "yarn": "^1.22.19"
-  }
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
