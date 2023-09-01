@@ -11,7 +11,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "nanoid": "^4.0.2",
+    "yarn": "^1.22.19"
   }
 }
